@@ -1,0 +1,125 @@
+Script started on Monday 01 April 2019 10:13:49 AM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ssh cec[K[Ks17d2[K56[K0@192.169.0.30
+ssh: connect to host 192.169.0.30 port 22: Network is unreachable
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ 1[Kssh cs17d50@192.169.0.30[1P.0.308.0.30[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d50@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Apr  1 09:26:29 2019 from 192.168.0.95
+$ 
+$ cd cs17d50
+-sh: 2: cd: can't cd to cs17d50
+$ cd ..
+$ ^Z
+$ ls
+ask	 cs17d03  cs17d08  cs17d13  cs17d18  cs17d23  cs17d28  cs17d33	cs17d38  cs17d43  cs17d48  cs17d53  cs17d58  hari
+cec	 cs17d04  cs17d09  cs17d14  cs17d19  cs17d24  cs17d29  cs17d34	cs17d39  cs17d44  cs17d49  cs17d54  cs17d59  ieeecec
+cs17d00  cs17d05  cs17d10  cs17d15  cs17d20  cs17d25  cs17d30  cs17d35	cs17d40  cs17d45  cs17d50  cs17d55  cs17d60
+cs17d01  cs17d06  cs17d11  cs17d16  cs17d21  cs17d26  cs17d31  cs17d36	cs17d41  cs17d46  cs17d51  cs17d56  cs17d61
+cs17d02  cs17d07  cs17d12  cs17d17  cs17d22  cs17d27  cs17d32  cs17d37	cs17d42  cs17d47  cs17d52  cs17d57  cs17d62
+$ cd
+$ cd cd17   s17d50
+-sh: 7: cd: can't cd to cs17d50
+$ ls
+examples.desktop  result.txt
+$ cd ..
+$ ls
+ask	 cs17d03  cs17d08  cs17d13  cs17d18  cs17d23  cs17d28  cs17d33	cs17d38  cs17d43  cs17d48  cs17d53  cs17d58  hari
+cec	 cs17d04  cs17d09  cs17d14  cs17d19  cs17d24  cs17d29  cs17d34	cs17d39  cs17d44  cs17d49  cs17d54  cs17d59  ieeecec
+cs17d00  cs17d05  cs17d10  cs17d15  cs17d20  cs17d25  cs17d30  cs17d35	cs17d40  cs17d45  cs17d50  cs17d55  cs17d60
+cs17d01  cs17d06  cs17d11  cs17d16  cs17d21  cs17d26  cs17d31  cs17d36	cs17d41  cs17d46  cs17d51  cs17d56  cs17d61
+cs17d02  cs17d07  cs17d12  cs17d17  cs17d22  cs17d27  cs17d32  cs17d37	cs17d42  cs17d47  cs17d52  cs17d57  cs17d62
+$ cd v cs17d50
+$ mmk  kdir newfile
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ scp - r [K[K[Kr student de[K[K[Kdetails-details[1Pdetails_details[C[C[C[C[C[C[C
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ scp -r student_details cs17d50@192.168.0[K3[K0.30:~/newfile
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d50@192.168.0.30's password: 
+Permission denied, please try again.
+cs17d50@192.168.0.30's password: 
+result_one_per_line.txt                                                                                        0%    0     0.0KB/s   --:-- ETAresult_one_per_line.txt                                                                                      100%   12KB  12.5KB/s   00:00    
+result.pdf                                                                                                     0%    0     0.0KB/s   --:-- ETAresult.pdf                                                                                                   100%   24KB  23.8KB/s   00:00    
+s4d_student_details.txt                                                                                        0%    0     0.0KB/s   --:-- ETAs4d_student_details.txt                                                                                      100% 3181     3.1KB/s   00:00    
+s4d_student_registor_number_and_name.txt                                                                       0%    0     0.0KB/s   --:-- ETAs4d_student_registor_number_and_name.txt                                                                     100% 1478     1.4KB/s   00:00    
+result.txt                                                                                                     0%    0     0.0KB/s   --:-- ETAresult.txt                                                                                                   100%   36KB  36.5KB/s   00:00    
+result_no_newline.txt                                                                                          0%    0     0.0KB/s   --:-- ETAresult_no_newline.txt                                                                                        100%   12KB  12.5KB/s   00:00    
+result_CS_Only.txt                                                                                             0%    0     0.0KB/s   --:-- ETAresult_CS_Only.txt                                                                                           100%   12KB  12.5KB/s   00:00    
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ rsync -a s2 cs17d59[K0@192.168.0.30;[K:~/newfile
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d50@192.168.0.30's password: 
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ssh cs17d50@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d50@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Apr  1 10:16:46 2019 from 192.168.0.95
+$ cd newfile
+$ ls
+s2  student_details
+$ sftp p    ev xit
+Connection to 192.168.0.30 closed.
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ sftpsh cs17d50@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -a s2 cs17d50@192.168.0.30:~/newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@scp -r student_details[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksh cs17d50@192.168.0.309.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pifconfig[4Pexitifconfigsu - cecdo ifconfig enp1s0 192.168.0.95[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksu - cec do ifconfig enp1s0 192.168.0.05[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C - cec[Kdo ifconfig enp1s0 down[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Kscript ifconfigexit[Ksudo ifconfig enp1s0 down[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo ifconfig enp1s0 [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfto[Kp cs17d50@192.169[K8.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d50@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put resi[Kult.txt
+Uploading result.txt to /home/cs17d50/result.txt
+result.txt                                                                                                     0%    0     0.0KB/s   --:-- ETAresult.txt                                                                                                   100%   42KB  41.6KB/s   00:00    
+sftp> ls
+examples.desktop    newfile             result.txt          
+sftp> cd ..
+sftp> get result.txt
+File "/home/result.txt" not found.
+sftp> cd[K[Kls
+ask      cec      cs17d00  cs17d01  cs17d02  cs17d03  cs17d04  cs17d05  cs17d06  cs17d07  cs17d08  cs17d09  cs17d10  cs17d11  cs17d12  
+cs17d13  cs17d14  cs17d15  cs17d16  cs17d17  cs17d18  cs17d19  cs17d20  cs17d21  cs17d22  cs17d23  cs17d24  cs17d25  cs17d26  cs17d27  
+cs17d28  cs17d29  cs17d30  cs17d31  cs17d32  cs17d33  cs17d34  cs17d35  cs17d36  cs17d37  cs17d38  cs17d39  cs17d40  cs17d41  cs17d42  
+cs17d43  cs17d44  cs17d45  cs17d46  cs17d47  cs17d48  cs17d49  cs17d50  cs17d51  cs17d52  cs17d53  cs17d54  cs17d55  cs17d56  cs17d57  
+cs17d58  cs17d59  cs17d60  cs17d61  cs17d62  hari     ieeecec  
+sftp> cd cs17d50
+sftp> ls
+examples.desktop    newfile             result.txt          
+sftp> get result.txt
+Fetching /home/cs17d50/result.txt to result.txt
+/home/cs17d50/result.txt                                                                                       0%    0     0.0KB/s   --:-- ETA/home/cs17d50/result.txt                                                                                     100%   42KB  41.6KB/s   00:00    
+sftp> exit
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 01 April 2019 10:29:30 AM IST
